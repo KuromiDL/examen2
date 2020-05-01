@@ -1,0 +1,20 @@
+{
+  "name": "examen2",
+  "version": "1.0.0",
+  "description": "No fallar el curso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Kuromi",
+  "license": "ISC",
+  "dependencies": {
+    "extra": "^0.2.1",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {}
+}

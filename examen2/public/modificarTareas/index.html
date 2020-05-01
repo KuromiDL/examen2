@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <title>Tasker</title>
+</head>
+<body>
+        <nav class="navbar">
+            <a  href=""> <img  class="taskerLogo" src="../img/tasker.png" alt=""></a>
+            <a href=""></a>
+        </nav>
+
+        <section class="form">
+            <h1>Modificar tareas</h1>
+
+            <div class="form1">
+                
+                <div class="registro">
+                        <br><br>
+                        <input class="form-control fondosG" type="date" placeholder="fecha" id="FechaTarea">
+                    <br>
+                    
+                    <input class="fondosG   izquierda" type="text" value="" placeholder="Nombre de la Tarea"
+                        id="nombre"> 
+                        <br>
+                        <br>
+                        
+                        <textarea class="form-control fondosG" placeholder="Descripción de la Tarea" id="descripcion" rows="3"></textarea>
+                    <br>
+                
+
+            </div>
+            </div>
+            <div class="form2">
+                <form  class="fondosG  class="form-inline">
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">prioridad</label>
+                    <select class="custom-select my-1 mr-sm-2" id="prioridad">
+                      <option selected>Nivel</option>
+                      <option value="1">Baja</option>
+                      <option value="2">Media</option>
+                      <option value="3">Alta</option>
+                    </select>
+                    <br>
+                    <br>
+            
+                        <form class=" class="fondosG form-inline">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Encargado</label>
+                            <select class="custom-select my-1 mr-sm-2" id="encargado">
+                              <option selected>Carlos Luis</option>
+                              <option value="1">Joaquín Gutiérrez</option>
+                              <option value="2">José León Sánchez</option>
+                              <option value="3">Yolanda Oreamuno</option>
+                            </select>
+                            <br>
+                            <br>
+                            <button class="boton_3 alt_letra fondosG " type="button" value="enviar"
+                                onclick="modificar()">Guardar cambios</button>
+
+                            </button>
+                    
+
+                </div>
+
+            <br><br>
+
+
+            </div>
+           
+                       
+
+
+
+        </section>
+        <script src="index.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

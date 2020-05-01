@@ -1,0 +1,42 @@
+body {
+    font-family: "Baloo 2", cursive;
+    height: 100vh;
+    overflow: hidden;
+   
+  }
+  .navbar{
+    background-color: #2F587B;
+    height: 54px;
+
+  }
+  .headerPic{
+      background-image: url("../img/img1.jpg");
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .headerText{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+  }
+  .headerText p{
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .headerText h1 {
+    font-size: 5rem;
+ 
+
+  }
+.taskerLogo{
+  width: 15%;
+  height: 65px;
+  padding-bottom: 2px;
+  
+}
+.infoTareas{
+  text-align: center;
+}
