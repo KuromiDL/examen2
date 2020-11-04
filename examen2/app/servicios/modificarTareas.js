@@ -26,6 +26,7 @@ router.put('/editar/:id', function (req, res) {
     )
 
 });
+//lol
 
 
 router.post("/recibir", function (req, res) {
